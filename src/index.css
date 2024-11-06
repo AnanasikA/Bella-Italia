@@ -1,13 +1,73 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+/* Stylizacja paska przewijania */
+::-webkit-scrollbar {
+    width: 12px; /* Szerokość paska przewijania */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #ffffff; /* Białe tło paska przewijania */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #4b8f29; /* Zielony uchwyt paska przewijania */
+    border-radius: 6px; /* Zaokrąglenie uchwytu */
+    border: 3px solid #ffffff; /* Biały odstęp między uchwytem a krawędzią */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #c62828; /* Czerwony uchwyt przy najechaniu */
+  }
+  
+  /* Stylizacja paska przewijania dla przeglądarek obsługujących scrollbar-color */
+  html {
+    scrollbar-width: thin; /* Cieńszy pasek przewijania */
+    scrollbar-color: #4b8f29 #ffffff; /* Kolory uchwytu i tła paska przewijania */
+  }
+  
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes slide-in-down {
+    from { transform: translateY(-20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+  
+  @keyframes slide-in-left {
+    from { transform: translateX(-20px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+  }
+  
+  @keyframes slide-in-up {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+  
+  .animate-fade-in {
+    animation: fade-in 1s ease forwards;
+  }
+  
+  .animate-slide-in-down {
+    animation: slide-in-down 0.6s ease forwards;
+  }
+  
+  .animate-slide-in-left {
+    animation: slide-in-left 0.6s ease forwards;
+  }
+  
+  .animate-slide-in-up {
+    animation: slide-in-up 0.6s ease forwards;
+  }
+  
+  .delay-200 { animation-delay: 0.2s; }
+  .delay-300 { animation-delay: 0.3s; }
+  .delay-400 { animation-delay: 0.4s; }
+  .delay-500 { animation-delay: 0.5s; }
+  .delay-600 { animation-delay: 0.6s; }
+  .delay-700 { animation-delay: 0.7s; }
+  .delay-800 { animation-delay: 0.8s; }
+  
