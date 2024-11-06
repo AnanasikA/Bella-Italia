@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Bella-Italia/static/css/main.56544bfa.css",
-    "main.js": "/Bella-Italia/static/js/main.e21e965e.js",
+    "main.js": "/Bella-Italia/static/js/main.8f969188.js",
     "static/js/453.b1f2e351.chunk.js": "/Bella-Italia/static/js/453.b1f2e351.chunk.js",
     "static/media/olive-branch.png": "/Bella-Italia/static/media/olive-branch.56192a7663affaf45da0.png",
     "static/media/menu.png": "/Bella-Italia/static/media/menu.7f549c24cb9e8a8ba658.png",
     "index.html": "/Bella-Italia/index.html",
     "main.56544bfa.css.map": "/Bella-Italia/static/css/main.56544bfa.css.map",
-    "main.e21e965e.js.map": "/Bella-Italia/static/js/main.e21e965e.js.map",
+    "main.8f969188.js.map": "/Bella-Italia/static/js/main.8f969188.js.map",
     "453.b1f2e351.chunk.js.map": "/Bella-Italia/static/js/453.b1f2e351.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.56544bfa.css",
-    "static/js/main.e21e965e.js"
+    "static/js/main.8f969188.js"
   ]
 }
