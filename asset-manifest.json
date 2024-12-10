@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/Bella-Italia/static/css/main.d0046922.css",
-    "main.js": "/Bella-Italia/static/js/main.1dc1d11d.js",
+    "main.css": "/Bella-Italia/static/css/main.beb35800.css",
+    "main.js": "/Bella-Italia/static/js/main.97f6143c.js",
     "static/js/453.b1f2e351.chunk.js": "/Bella-Italia/static/js/453.b1f2e351.chunk.js",
-    "static/media/olive-branch.png": "/Bella-Italia/static/media/olive-branch.56192a7663affaf45da0.png",
-    "static/media/menu.png": "/Bella-Italia/static/media/menu.7f549c24cb9e8a8ba658.png",
+    "static/media/pizza2.jpg": "/Bella-Italia/static/media/pizza2.691baa521429011a9e40.jpg",
+    "static/media/pasta1.jpg": "/Bella-Italia/static/media/pasta1.cef0c0126c9541207497.jpg",
+    "static/media/pasta2.jpg": "/Bella-Italia/static/media/pasta2.0ad7bdc4d52d5ab65777.jpg",
+    "static/media/hero-image.jpg": "/Bella-Italia/static/media/hero-image.125f250da1a7f3dfd745.jpg",
+    "static/media/dessert1.jpg": "/Bella-Italia/static/media/dessert1.fd51a67693cf1d3f2452.jpg",
+    "static/media/dessert2.jpg": "/Bella-Italia/static/media/dessert2.c700fc19a2d10e6b9fee.jpg",
+    "static/media/pizza1.jpg": "/Bella-Italia/static/media/pizza1.2fec1b10e42bfd1ea509.jpg",
     "index.html": "/Bella-Italia/index.html",
-    "main.d0046922.css.map": "/Bella-Italia/static/css/main.d0046922.css.map",
-    "main.1dc1d11d.js.map": "/Bella-Italia/static/js/main.1dc1d11d.js.map",
+    "main.beb35800.css.map": "/Bella-Italia/static/css/main.beb35800.css.map",
+    "main.97f6143c.js.map": "/Bella-Italia/static/js/main.97f6143c.js.map",
     "453.b1f2e351.chunk.js.map": "/Bella-Italia/static/js/453.b1f2e351.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0046922.css",
-    "static/js/main.1dc1d11d.js"
+    "static/css/main.beb35800.css",
+    "static/js/main.97f6143c.js"
   ]
 }
